@@ -1,4 +1,7 @@
-export default {
-    base: "/simple-3d-portfolio/",
-  };
-  
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  server: {
+    port: 8001,
+  },
+});
